@@ -12,7 +12,7 @@ echo view('header.php');
 
                 
                 <div class="container">
-                    <form action="action_page.php">
+                    <form method="Post">
 
                     <label for="tpLogEmpresa">Tipo Logradouro</label>
                     <input type="text" id="tpLogEmpresa" name="tpLogEmpresa" placeholder="Tipo do logradouro da empresa" required>

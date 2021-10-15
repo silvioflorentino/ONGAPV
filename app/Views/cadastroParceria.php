@@ -12,7 +12,7 @@ echo view('header.php');
 
                 
                 <div class="container">
-                    <form action="action_page.php">
+                <form method="Post">
                   
                     <label for="nomeParceria">Nome</label>
                     <input type="text" id="nomeParceria" name="nomeParceria" placeholder="Nome da parceria" required>

@@ -33,8 +33,8 @@
                 </a>
                 <a href="#relatar">
                     Relatos
-                </a>
-                <a class="btn-menu" href=" <?php echo site_url('/LoginController/login') ?>">
+                </a> base_url
+                <a class="btn-menu" href=" <?php echo base_url('/LoginController/login') ?>">
                     Login
                 </a>
             </div>
@@ -46,7 +46,7 @@
                     <a href="#principal">Home</a>
                     <a href="#ajuda">Quero ajudar</a>
                     <a href="#relatar">Relatos</a>
-                    <a href="<?php echo site_url('/LoginController/login') ?>">Login</a>
+                    <a href="<?php echo base_url('/LoginController/login') ?>">Login</a>
                 </div>
             </div>
         </div>
@@ -125,19 +125,19 @@
         </div>
         <div class="center">
             <div class="conquista-single" style="width: 18%; margin-right: 2%;">
-                <a href="<?php echo site_url('/DoadorController/doador') ?>"><img src="http://localhost/2021/tccfinal/public/img/doador.png" /> </a>
+                <a href="<?php echo base_url('/DoadorController/doador') ?>"><img src="http://localhost/2021/tccfinal/public/img/doador.png" /> </a>
             </div>
             <div class="conquista-single" style="width: 18%; margin-right: 2%;">
-                <a href="<?php echo site_url('/VoluntarioController/voluntario') ?>"><img src="http://localhost/2021/tccfinal/public/img/voluntario.png" /> </a>
+                <a href="<?php echo base_url('/VoluntarioController/voluntario') ?>"><img src="http://localhost/2021/tccfinal/public/img/voluntario.png" /> </a>
             </div>
             <div class="conquista-single" style="width: 18%; margin-right: 2%;">
-                <a href="<?php echo site_url('/EmpresaController/empresa') ?>"> <img src="http://localhost/2021/tccfinal/public/img/empresa.png" /> </a>
+                <a href="<?php echo base_url('/EmpresaController/empresa') ?>"> <img src="http://localhost/2021/tccfinal/public/img/empresa.png" /> </a>
             </div>
             <div class="conquista-single" style="width: 18%; margin-right: 2%;">
-                <a href="<?php echo site_url('/ParceriaController/parceria') ?>"><img src="http://localhost/2021/tccfinal/public/img/parceria.png" /> </a>
+                <a href="<?php echo base_url('/ParceriaController/parceria') ?>"><img src="http://localhost/2021/tccfinal/public/img/parceria.png" /> </a>
             </div>
             <div class="conquista-single" style="width: 18%; margin-right: 2%;">
-                <a href="<?php echo site_url('/GrupoController/grupo') ?>"> <img src="http://localhost/2021/tccfinal/public/img/grupo.png" /> </a>
+                <a href="<?php echo base_url('/GrupoController/grupo') ?>"> <img src="http://localhost/2021/tccfinal/public/img/grupo.png" /> </a>
             </div>
         </div>
     </section>
@@ -169,16 +169,16 @@
         </div>
         <div class="center">
             <div class="conquista-single" style="width: 20%; margin-right: 5%;">
-                <a href="<?php echo site_url('/DoacaoController/doacao') ?>"><img src="http://localhost/2021/tccfinal/public/img/alimentos.png" /></a>
+                <a href="<?php echo base_url('/DoacaoController/doacao') ?>"><img src="http://localhost/2021/tccfinal/public/img/alimentos.png" /></a>
             </div>
             <div class="conquista-single" style="width: 20%; margin-right: 5%;">
-                <a href="<?php echo site_url('/DoacaoController/doacao') ?>"><img src="http://localhost/2021/tccfinal/public/img/vestimenta.png" /></a>
+                <a href="<?php echo base_url('/DoacaoController/doacao') ?>"><img src="http://localhost/2021/tccfinal/public/img/vestimenta.png" /></a>
             </div>
             <div class="conquista-single" style="width: 20%; margin-right: 5%;">
-                <a href="<?php echo site_url('/DoacaoController/doacao') ?>"><img src="http://localhost/2021/tccfinal/public/img/absorventes.png" /> </a>
+                <a href="<?php echo base_url('/DoacaoController/doacao') ?>"><img src="http://localhost/2021/tccfinal/public/img/absorventes.png" /> </a>
             </div>
             <div class="conquista-single" style="width: 20%; margin-right: 5%;">
-                <a href="<?php echo site_url('/DoacaoController/doacao') ?>"><img src="http://localhost/2021/tccfinal/public/img/máscara.png" /> </a>
+                <a href="<?php echo base_url('/DoacaoController/doacao') ?>"><img src="http://localhost/2021/tccfinal/public/img/máscara.png" /> </a>
             </div>
 
         </div>

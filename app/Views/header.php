@@ -26,16 +26,16 @@
             </div>
             <div class="menu">
                 <!--menu-->
-                <a href="<?php echo site_url('/PrincipalController/principal') ?>">
+                <a href="<?php echo base_url('/PrincipalController/principal') ?>">
                     Home
                 </a>
-                <a href="<?php echo site_url('/PrincipalController/principal') ?>">
+                <a href="<?php echo base_url('/PrincipalController/principal') ?>">
                     Quero ajudar
                 </a>
-                <a href="<?php echo site_url('/PrincipalController/principal') ?>">
+                <a href="<?php echo base_url('/PrincipalController/principal') ?>">
                     Relatos
                 </a>
-                <a class="btn-menu" href="<?php echo site_url('/LoginController/login') ?>">
+                <a class="btn-menu" href="<?php echo base_url('/LoginController/login') ?>">
                     Login
                 </a>
             </div>
@@ -44,10 +44,10 @@
                 <i class="fas fa-bars menu-mobile-icon"></i>
                 <div class="menu-items">
                     <!--menu-items-->
-                    <a href="<?php echo site_url('/PrincipalController/principal') ?>">Home</a>
-                    <a href="<?php echo site_url('/PrincipalController/principal') ?>">Quero ajudar</a>
-                    <a href="<?php echo site_url('/PrincipalController/principal') ?>">Relatos</a>
-                    <a href="<?php echo site_url('/LoginController/login') ?>">Login</a>
+                    <a href="<?php echo base_url('/PrincipalController/principal') ?>">Home</a>
+                    <a href="<?php echo base_url('/PrincipalController/principal') ?>">Quero ajudar</a>
+                    <a href="<?php echo base_url('/PrincipalController/principal') ?>">Relatos</a>
+                    <a href="<?php echo base_url('/LoginController/login') ?>">Login</a>
                 </div>
             </div>
         </div>

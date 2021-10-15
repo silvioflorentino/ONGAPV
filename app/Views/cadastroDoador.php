@@ -14,7 +14,7 @@ echo view('header.php');
 
 
         <div class="container">
-            <form action="action_page.php">
+            <form method="Post">
 
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                 <label class="form-check-label" for="flexCheckDefault">
@@ -24,19 +24,19 @@ echo view('header.php');
                 </BR></BR> OU </BR></BR>
 
                 <label for="nomeDoador">Nome Completo</label>
-                <input type="text" id="nomeDoador" name="nomeDoador" placeholder="Seu nome..." required>
+                <input type="text" id="nomeDoador" name="nm_doador" placeholder="Seu nome..." required>
 
                 <label for="emailDoador">Email</label>
-                <input type="text" id="emailDoador" name="emailDoador" placeholder="Seu email..." required>
+                <input type="text" id="emailDoador" name="email_doador" placeholder="Seu email..." required>
 
                 <label for="cpfDoador">CPF</label>
-                <input type="text" id="cpfDoador" name="cpfDoador" placeholder="999.999.999-99" required>
+                <input type="text" id="cpfDoador" name="cpf_doador" placeholder="999.999.999-99" required>
 
                 <label for="dataNascDoador">Data de Nascimento</label>
-                <input type="text" id="dataNascDoador" name="dataNascDoador" placeholder="99/99/9999" required>
+                <input type="text" id="dataNascDoador" name="data_nasc_doador" placeholder="99/99/9999" required>
 
                 <label for="senhaDoador">Senha</label>
-                <input type="text" id="senhaDoador" name="senhaDoador" placeholder="Sua senha..." required>
+                <input type="text" id="senhaDoador" name="senha_doador" placeholder="Sua senha..." required>
 
                 <input type="submit" value="Cadastrar">
 

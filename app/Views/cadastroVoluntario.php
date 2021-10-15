@@ -12,7 +12,7 @@ echo view('header.php');
 
                 
                 <div class="container">
-                    <form action="action_page.php">
+                <form method="Post">
                   
                     <label for="nomeVol">Nome Completo</label>
                     <input type="text" id="nomeVol" name="nomeVol" placeholder="Seu nome..." required>
