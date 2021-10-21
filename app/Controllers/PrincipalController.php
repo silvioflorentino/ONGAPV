@@ -5,8 +5,7 @@ namespace App\Controllers;
 class PrincipalController extends BaseController
 {
 
-public function principal() {
+public function principal() {        
         echo view('principal');
      }
-
 }

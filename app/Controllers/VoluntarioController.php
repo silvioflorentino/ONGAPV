@@ -4,21 +4,20 @@ namespace App\Controllers;
 
 class VoluntarioController extends BaseController
 {
-
         public function voluntario()
         {
+                echo view('header');
                 echo view('cadastroVoluntario');
+                echo view('footer');
         }
-        
         public function inserirVoluntario()
         {
                 $data['msg'] = '';
                 $request = service('request');
                 if ($request->getMethod() === 'post') {
-                        $VoluntarioModel = new \App\Models\DoadorModel();
+                        $VoluntarioModel = new \App\Models\VoluntarioModel();
 
                         $opcao = ['cost' => 8];
-
                         $senhaCrip = password_hash($request->getPost('senha_vol'), PASSWORD_BCRYPT, $opcao);
 
                         $VoluntarioModel->set('nm_vol', $request->getPost('nm_vol'));
@@ -30,7 +29,6 @@ class VoluntarioController extends BaseController
                         $VoluntarioModel->set('dt_nasc_vol', $request->getPost('dt_nasc_vol'));
                         $VoluntarioModel->set('ativ_vol', $request->getPost('ativ_vol'));
                         $VoluntarioModel->set('senha_vol', $senhaCrip);
-
 
                         if ($VoluntarioModel->insert()) {
                                 $data['msg'] = "Informações cadastradas com sucesso";

@@ -4,12 +4,12 @@ namespace App\Controllers;
 
 class EmpresaController extends BaseController
 {
-
         public function empresa()
         {
+                echo view('header');
                 echo view('cadastroEmpresa');
+                echo view('footer');
         }
-
 
         public function inserirEmpresa()
         {
@@ -19,7 +19,6 @@ class EmpresaController extends BaseController
                         $EmpresaModel = new \App\Models\EmpresaModel();
 
                         $opcao = ['cost' => 8];
-
                         $senhaCrip = password_hash($request->getPost('senha_emp'), PASSWORD_BCRYPT, $opcao);
 
                         $EmpresaModel->set('tp_logra_emp', $request->getPost('tp_logra_emp'));

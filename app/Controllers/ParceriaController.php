@@ -4,12 +4,12 @@ namespace App\Controllers;
 
 class ParceriaController extends BaseController
 {
-
         public function parceria()
         {
+                echo view('header');
                 echo view('cadastroParceria');
+                echo view('footer');
         }
-        
         public function inserirParceria()
         {
                 $data['msg'] = '';

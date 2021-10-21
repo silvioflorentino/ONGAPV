@@ -4,7 +4,7 @@ echo view('header.php');
 
     <section class="login">
         <div class="container">
-            <form>
+            <form method="POST">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Email</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -18,7 +18,7 @@ echo view('header.php');
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                     <label class="form-check-label" for="exampleCheck1">Lembre-se de mim</label>
                 </div>
-                <button type="submit" class="btn btn-primary">Entrar</button>
+                <button type="submit" class="btn btn-success">Entrar</button>
             </form>
         </div>
     </section>

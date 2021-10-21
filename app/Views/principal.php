@@ -33,8 +33,8 @@
                 </a>
                 <a href="#relatar">
                     Relatos
-                </a> base_url
-                <a class="btn-menu" href=" <?php echo base_url('/LoginController/login') ?>">
+                </a>
+                <a class="btn-menu" href=" <?php echo ('/LoginController/login') ?>">
                     Login
                 </a>
             </div>
@@ -51,7 +51,6 @@
             </div>
         </div>
     </header>
-
 
     <section id="principal" class="main">
         <!--main-->
@@ -95,7 +94,6 @@
         </div>
     </section>
 
-
     <section class="sobre">
         <!--sobre-->
         <div class="center">
@@ -125,24 +123,22 @@
         </div>
         <div class="center">
             <div class="conquista-single" style="width: 18%; margin-right: 2%;">
-                <a href="<?php echo base_url('/DoadorController/doador') ?>"><img src="http://localhost/2021/tccfinal/public/img/doador.png" /> </a>
+                <a href="<?php echo base_url('/DoadorController/inserirDoador') ?>"><img src="http://localhost/2021/tccfinal/public/img/doador.png" /> </a>
             </div>
             <div class="conquista-single" style="width: 18%; margin-right: 2%;">
-                <a href="<?php echo base_url('/VoluntarioController/voluntario') ?>"><img src="http://localhost/2021/tccfinal/public/img/voluntario.png" /> </a>
+                <a href="<?php echo base_url('/VoluntarioController/inserirVoluntario') ?>"><img src="http://localhost/2021/tccfinal/public/img/voluntario.png" /> </a>
             </div>
             <div class="conquista-single" style="width: 18%; margin-right: 2%;">
-                <a href="<?php echo base_url('/EmpresaController/empresa') ?>"> <img src="http://localhost/2021/tccfinal/public/img/empresa.png" /> </a>
+                <a href="<?php echo base_url('/EmpresaController/inserirEmpresa') ?>"> <img src="http://localhost/2021/tccfinal/public/img/empresa.png" /> </a>
             </div>
             <div class="conquista-single" style="width: 18%; margin-right: 2%;">
-                <a href="<?php echo base_url('/ParceriaController/parceria') ?>"><img src="http://localhost/2021/tccfinal/public/img/parceria.png" /> </a>
+                <a href="<?php echo base_url('/ParceriaController/inserirParceria') ?>"><img src="http://localhost/2021/tccfinal/public/img/parceria.png" /> </a>
             </div>
             <div class="conquista-single" style="width: 18%; margin-right: 2%;">
-                <a href="<?php echo base_url('/GrupoController/grupo') ?>"> <img src="http://localhost/2021/tccfinal/public/img/grupo.png" /> </a>
+                <a href="<?php echo base_url('/GrupoController/inserirGrupo') ?>"> <img src="http://localhost/2021/tccfinal/public/img/grupo.png" /> </a>
             </div>
         </div>
     </section>
-
-
 
     <section class="sobre-especifico">
         <!--sobre-especifico-->
@@ -221,7 +217,6 @@
             </div>
         </section>
 
-
     </section>
 
     <section class="depoimentos">
@@ -232,7 +227,6 @@
                 <h2>Depoimentos</h2>
                 <p>Veja relatos de algumas pessoas já foram ajudadas com doações e também de voluntários que tiveram essa atitude de empatia por meio da ONG.</p>
             </div>
-
 
             <div class="carrousel">
                 <!--carrousel-->
@@ -272,7 +266,6 @@
         </div>
     </section>
 
-
     <section class="contato">
         <!--contato-->
         <div class="center">
@@ -282,13 +275,11 @@
                 <p>Interessado em colaborar com a causa ou precisa falar conosco sobre algum assunto? Entre em contato conosco preenchendo os campos abaixo com algumas informações.</p>
             </div>
 
-
-
             <div class="container">
-                <form action="action_page.php">
+                <form method="POST">
 
                     <label for="nomeCompleto">Nome Completo</label>
-                    <input type="text" id="fname" name="nomeCompleto" placeholder="Seu nome...">
+                    <input type="text" id="nomeCompleto" name="nomeCompleto" placeholder="Seu nome...">
 
                     <label for="cidade">Cidade</label>
                     <select id="cidade" name="cidade">
@@ -298,21 +289,20 @@
                     </select>
 
                     <label for="titulo">Título</label>
-                    <input type="text" id="fname" name="titulo" placeholder="Exemplo: relatos, dúvida sobre como ajudar, colaboração...">
-
-
+                    <input type="text" id="titulo" name="titulo" placeholder="Exemplo: relatos, dúvida sobre como ajudar, colaboração...">
 
                     <label for="assunto">Assunto</label>
                     <textarea id="assunto" name="assunto" placeholder="Escreva algo..." style="height:200px"></textarea>
 
-                    <input type="submit" value="Enviar">
-
+                    <div class="main_cta">
+                    <button type="submit" >Enviar</button>
+                    </div>
+                    
                 </form>
             </div>
         </div>
     </section>
 
-
     <?php
-    echo view('footer.php');
+    echo view('footer');
     ?>
