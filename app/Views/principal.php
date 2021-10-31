@@ -34,7 +34,7 @@
                 <a href="#relatar">
                     Relatos
                 </a>
-                <a class="btn-menu" href=" <?php echo ('/LoginController/login') ?>">
+                <a class="btn-menu" href=" <?php echo base_url('/LoginController/login') ?>">
                     Login
                 </a>
             </div>
@@ -60,7 +60,7 @@
                 <!--main_cta-->
                 <h2>Apoio às Pessoas em Situação de Vulnerabilidade</h2>
                 <p>TCC - ETEC de Guarulhos</p>
-                <button>Vamos começar!</button>
+                <a href="<?php echo base_url('/MeuPerfilController/meuperfil') ?>"><button >Meu perfil</button> </a>
             </div>
 
             <div class="diferenciais">
@@ -187,7 +187,7 @@
                     <p>.</p>
                     <p>.</p>
                     <p>.</p>
-                    <h2>20</h2>
+                    <h2>10</h2>
                     <p>Voluntarios</p>
                 </div>
                 <div class="conquista-single">
@@ -195,7 +195,7 @@
                     <p>.</p>
                     <p>.</p>
                     <p>.</p>
-                    <h2>20</h2>
+                    <h2>27</h2>
                     <p>Doações Realizadas</p>
                 </div>
                 <div class="conquista-single">
@@ -203,7 +203,7 @@
                     <p>.</p>
                     <p>.</p>
                     <p>.</p>
-                    <h2>20</h2>
+                    <h2>18</h2>
                     <p>Pessoas ajudadas</p>
                 </div>
                 <div class="conquista-single">
@@ -211,7 +211,7 @@
                     <p>.</p>
                     <p>.</p>
                     <p>.</p>
-                    <h2>20</h2>
+                    <h2>6</h2>
                     <p>Parcerias com ONGS</p>
                 </div>
             </div>
@@ -236,7 +236,7 @@
                         <!--carrousel-single-box-->
                         <p><i class="fas fa-quote-left"></i>“Fiquei muito grata com doações que recebi da ONG, é muito difícil viver nessa situação, mas ainda existem pessoas que nos ajudam, ouvem e estão do nosso lado.”<i class="fas fa-quote-right"></i></p>
                     </div>
-                    <img src="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/s93-pa-5707-01.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=5e3b69f4bc467ced3ccd5340fd09f27c" />
+                    <img src="https://cajamar.sp.gov.br/noticias/wp-content/uploads/sites/2/2021/07/site-vacinacao-33-anos.png" />
                     <p>Dona Maria</p>
                     <span>Mulher em situação de rua</span>
                 </div>
@@ -258,7 +258,7 @@
                         <!--carrousel-single-box-->
                         <p><i class="fas fa-quote-left"></i>“Fui ajudado com alimento quando eu mais precisava, mesmo vendendo reciclagem, ás vezes não alcanço dinheiro suficiente pra sobreviver, fico muito grato com as doações.”<i class="fas fa-quote-right"></i></p>
                     </div>
-                    <img src="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/s93-pa-5707-01.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=5e3b69f4bc467ced3ccd5340fd09f27c" />
+                    <img src="https://osegredo.com.br/wp-content/uploads/2018/01/10-qualidades-de-pessoas-que-se.webp" />
                     <p>Alceu</p>
                     <span>Homem em situação de rua</span>
                 </div>

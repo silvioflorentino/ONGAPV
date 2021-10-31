@@ -19,6 +19,9 @@
                 <label for="nmLogParceria">Nome Logradouro</label>
                 <input type="text" id="nmLogParceria" name="nm_logra_parc" placeholder="Nome do logradouro da parceira" required>
 
+                <label for="telParceria">Telefone Celular</label>
+                <input type="text" id="telParceria" name="nm_logra_parc" placeholder="Nome do logradouro da parceira" required>
+
                 <label for="numLogParceria">Número Logradouro</label>
                 <input type="text" id="numLogParceria" name="num_logra_parc" placeholder="Número do logradouro da parceria" required>
 
@@ -32,13 +35,13 @@
                 <input type="text" id="cepParceria" name="cep_parc" placeholder="CEP da parceria (99.999-999)" required>
 
                 <label for="emailParceria">Email</label>
-                <input type="text" id="emailParceria" name="email_parc" placeholder="Seu email..." required>
+                <input type="email" id="emailParceria" name="email_parc" placeholder="Seu email..." required>
 
                 <label for="siteParceria">Site (não obrigatório)</label>
                 <input type="text" id="siteParceria" name="site_parc" placeholder="Seu site...">
 
                 <label for="senhaParceria">Senha</label>
-                <input type="text" id="senhaParceria" name="senha_parc" placeholder="Sua senha..." required>
+                <input type="password" id="senhaParceria" name="senha_parc" placeholder="Sua senha..." required>
 
                 <button type="submit" class="btn btn-success">Cadastrar</button>
 

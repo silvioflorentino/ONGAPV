@@ -1,21 +1,18 @@
+<?php
+echo view('header.php');
+?>
+
 <section class="contato">
     <!--contato-->
     <div class="center">
         <div class="contato-titulo">
             <!--contato-titulo-->
-            <h2>Cadastro de Doador</h2>
-            <p>Interessado em colaborar com a causa? Cadastre-se como um doador para ajudar as pessoas em situação de vulnerabilidade, doe para melhorar uma vida.</p>
+            <h2>Alterar meu dados</h2>
+            <p>Caso precise alterar seus dados como doador, apenas preencha com os dados atuais corretos e aperte o botão "Alterar", assim seus dados serão atualizados.</p>
         </div>
 
         <div class="container">
             <form method="POST">
-
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault">
-                    MANTER ANONIMATO E NÃO PREENCHER OS DADOS
-                </label>
-
-                </BR></BR> OU </BR></BR>
 
                 <label for="nomeDoador">Nome Completo</label>
                 <input type="text" id="nomeDoador" name="nm_Doador" placeholder="Seu nome..." >
@@ -35,9 +32,13 @@
                 <label for="senhaDoador">Senha</label>
                 <input type="password" id="senhaDoador" name="senha_doador" placeholder="Sua senha..." >
 
-                <button type="submit" class="btn btn-success">Cadastrar</button>
+                <button type="submit" class="btn btn-success">Alterar</button>
 
             </form>
         </div>
     </div>
 </section>
+
+<?php
+echo view('footer.php');
+?>

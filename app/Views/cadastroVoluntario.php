@@ -13,8 +13,11 @@
                 <label for="nomevol">Nome Completo</label>
                 <input type="text" id="nomevol" name="nm_vol" placeholder="Seu nome..." required>
 
+                <label for="telVol">Telefone Celular</label>
+                <input type="text" id="telVol" name="nm_vol" placeholder="Seu nome..." required>
+
                 <label for="emailvol">Email</label>
-                <input type="text" id="emailvol" name="email_vol" placeholder="Seu email..." required>
+                <input type="email" id="emailvol" name="email_vol" placeholder="Seu email..." required>
 
                 <label for="cpfvol">CPF</label>
                 <input type="text" id="cpfvol" name="cpf_vol" placeholder="999.999.999-99" required>
@@ -39,7 +42,7 @@
                 </select>
 
                 <label for="senhaDoador">Senha</label>
-                <input type="text" id="senhaDoador" name="senha_vol" placeholder="Sua senha..." required>
+                <input type="password" id="senhaDoador" name="senha_vol" placeholder="Sua senha..." required>
 
                 <button type="submit" class="btn btn-success">Cadastrar</button>
 

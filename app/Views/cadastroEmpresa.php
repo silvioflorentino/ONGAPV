@@ -32,7 +32,7 @@
                 <input type="text" id="cnpjEmpresa" name="cnpj_emp" placeholder="CNPJ da empresa" required>
 
                 <label for="emailEmpresa">Email</label>
-                <input type="text" id="emailEmpresa" name="email_emp" placeholder="Email da empresa" required>
+                <input type="email" id="emailEmpresa" name="email_emp" placeholder="Email da empresa" required>
 
                 <label for="nmRazSocEmpresa">Nome Razão Social</label>
                 <input type="text" id="nmRazSocEmpresa" name="nm_rz_social_emp" placeholder="Nome razão social da empresa" required>
@@ -40,11 +40,14 @@
                 <label for="nmFantEmpresa">Nome Fantasia</label>
                 <input type="text" id="nmFantEmpresa" name="nm_fantasia_emp" placeholder="Nome fantasia da empresa" required>
 
+                <label for="telEmpresa">Telefone Celulas</label>
+                <input type="text" id="telEmpresa" name="nm_fantasia_emp" placeholder="Nome fantasia da empresa" required>
+
                 <label for="siteEmpresa">Site (não obrigatório)</label>
                 <input type="text" id="siteEmpresa" name="site_emp" placeholder="Site da empresa">
 
                 <label for="senhaEmpresa">Senha</label>
-                <input type="text" id="senhaEmpresa" name="senha_emp" placeholder="Sua senha..." required>
+                <input type="password" id="senhaEmpresa" name="senha_emp" placeholder="Sua senha..." required>
 
                 <button type="submit" class="btn btn-success">Cadastrar</button>
 
